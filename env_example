@@ -1,0 +1,2 @@
+EXPO_PUBLIC_API_URL=https://api.yourmedicalserver.com/v1
+EXPO_PUBLIC_USE_MOCK=true

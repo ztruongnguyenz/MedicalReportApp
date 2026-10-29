@@ -1,0 +1,52 @@
+{
+  "welcome": "Bon retour,",
+  "title": "Coffre-fort médical",
+  "logout": "Se déconnecter",
+  "scanTitle": "📄 Analyse instantanée des rapports",
+  "scanSubtitle": "Prenez une photo ou importez vos résultats d'analyses. Notre moteur d'analyse IA extraira les principaux biomarqueurs et suivra instantanément l'évolution de votre santé.",
+  "takePhoto": "📷 Photographier un rapport",
+  "pickGallery": "🖼️ Choisir dans la galerie",
+  "secureMedicalArchive": "🔒 Archives médicales sécurisées",
+  "trendAnalytics": "Analyse des tendances des indicateurs de santé",
+  "searchingReports": "Recherche des rapports en cours...",
+  "reportDetails": "Détails du rapport",
+  "identifyMessage": "Une vérification d'identité est requise pour consulter les informations de santé sensibles.",
+  "retryBiometrics": "Réessayer l'authentification biométrique",
+  "differentAccount": "Utiliser un autre compte",
+  "normal": "Normal",
+  "attention": "Attention",
+  "critical": "Critique",
+  "unknown": "Inconnu",
+  "loginTitle": "Coffre-fort médical",
+  "loginSubtitle": "Connectez-vous pour gérer vos dossiers médicaux",
+  "emailPlaceholder": "Adresse e-mail",
+  "passwordPlaceholder": "Mot de passe",
+  "loginButton": "Se connecter",
+  "unit": "Unité",
+  "unlockMedicalRecords": "Déverrouiller les dossiers médicaux",
+  "useDevicePassword": "Utiliser le mot de passe de l'appareil",
+  "useBiometrics": "Se connecter avec la biométrie",
+  "progressing": "Compression et analyse en cours",
+  "uploadDate": "Date d'importation :",
+  "tabs": {
+    "first": "Scanner",
+    "second": "Historique"
+  },
+  "error": {
+    "authentication": "Erreur d'authentification :",
+    "history": "Erreur lors du chargement de l'historique :",
+    "reportDetails": "Erreur lors du chargement des détails du rapport :"
+  },
+  "alert": {
+    "title": "Notification",
+    "loginRequired": "Veuillez saisir votre adresse e-mail et votre mot de passe.",
+    "authenFailedTitle": "Échec de la connexion",
+    "authenFailedMessage": "Adresse e-mail ou mot de passe incorrect.",
+    "permission": "Autorisation requise",
+    "permissionMessage": "L'application nécessite l'accès à votre appareil photo ou à votre photothèque.",
+    "success": "Succès",
+    "successAnalyticsMessage": "Le rapport médical a été analysé avec succès !",
+    "uploadError": "Erreur de téléversement",
+    "uploadErrorMessage": "Impossible de téléverser le rapport."
+  }
+}

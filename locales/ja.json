@@ -1,0 +1,52 @@
+{
+  "welcome": "おかえりなさい、",
+  "title": "ヘルス・ボルト",
+  "logout": "ログアウト",
+  "scanTitle": "📄 検査レポートをすぐに分析",
+  "scanSubtitle": "検査結果を撮影またはアップロードしてください。AI分析エンジンが主要なバイオマーカーを抽出し、健康状態の推移をすぐに追跡します。",
+  "takePhoto": "📷 検査レポートを撮影",
+  "pickGallery": "🖼️ ギャラリーから選択",
+  "secureMedicalArchive": "🔒 安全な医療記録保管庫",
+  "trendAnalytics": "健康指標の推移分析",
+  "searchingReports": "レポートを検索しています...",
+  "reportDetails": "レポートの詳細",
+  "identifyMessage": "機密性の高い健康情報を表示するには、本人確認が必要です。",
+  "retryBiometrics": "生体認証を再試行",
+  "differentAccount": "別のアカウントを使用",
+  "normal": "正常",
+  "attention": "要注意",
+  "critical": "危険",
+  "unknown": "不明",
+  "loginTitle": "ヘルス・ボルト",
+  "loginSubtitle": "ログインして医療記録を管理",
+  "emailPlaceholder": "メールアドレス",
+  "passwordPlaceholder": "パスワード",
+  "loginButton": "ログイン",
+  "unit": "単位",
+  "unlockMedicalRecords": "医療記録のロックを解除",
+  "useDevicePassword": "デバイスのパスワードを使用",
+  "useBiometrics": "生体認証でログイン",
+  "progressing": "圧縮・分析中",
+  "uploadDate": "アップロード日：",
+  "tabs": {
+    "first": "スキャン",
+    "second": "履歴"
+  },
+  "error": {
+    "authentication": "認証エラー：",
+    "history": "履歴の読み込みエラー：",
+    "reportDetails": "レポート詳細の読み込みエラー："
+  },
+  "alert": {
+    "title": "お知らせ",
+    "loginRequired": "メールアドレスとパスワードを入力してください。",
+    "authenFailedTitle": "ログイン失敗",
+    "authenFailedMessage": "メールアドレスまたはパスワードが正しくありません。",
+    "permission": "アクセス許可が必要です",
+    "permissionMessage": "このアプリの使用には、カメラまたは写真ライブラリへのアクセス許可が必要です。",
+    "success": "成功",
+    "successAnalyticsMessage": "医療レポートの分析が完了しました！",
+    "uploadError": "アップロードエラー",
+    "uploadErrorMessage": "レポートをアップロードできませんでした。"
+  }
+}
