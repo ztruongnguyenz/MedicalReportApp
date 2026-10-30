@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import 'react-native-reanimated';
 
 import { useColorScheme } from '@/components/useColorScheme';
-import { LanguageProvider } from '@/context/LanguageContext';
+import { LanguageProvider, useLanguage } from '@/context/LanguageContext';
 import LanguageToggle from '@/components/LanguageToggle';
 
 export {
@@ -50,6 +50,7 @@ export default function RootLayout() {
 
 function RootLayoutNav() {
   const colorScheme = useColorScheme();
+  const { t } = useLanguage();
 
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
@@ -71,13 +72,34 @@ function RootLayoutNav() {
             headerRight: () => <LanguageToggle />,
           }} 
         />
+
+        {/* Register Screen - Bổ sung Header & LanguageToggle giống Login */}
+        <Stack.Screen 
+          name="register" 
+          options={{ 
+            headerShown: true, 
+            title: '',
+            headerRight: () => <LanguageToggle />,
+          }} 
+        />
+
+        {/* Forgot Password Screen - Bổ sung Header & LanguageToggle giống Login */}
+        <Stack.Screen 
+          name="forgot-password" 
+          options={{ 
+            headerShown: true, 
+            title: '',
+            headerRight: () => <LanguageToggle />,
+          }} 
+        />
         
-        {/* Dynamic Report Details Screen */}
+        {/* Dynamic Report Details Screen - Dùng i18n thay vì fix cứng text */}
         <Stack.Screen 
           name="report/[id]" 
           options={{ 
             headerShown: true, 
-            title: 'Report Details',
+            title: t('reportDetails') || 'Report Details',
+            headerRight: () => <LanguageToggle />,
           }} 
         />
       </Stack>

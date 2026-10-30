@@ -105,6 +105,27 @@ export default function LoginScreen() {
             </Text>
           </TouchableOpacity>
         )}
+
+        <TouchableOpacity
+          style={styles.forgotBtn}
+          onPress={() => router.push('/forgot-password')}
+          activeOpacity={0.7}
+        >
+          <Text style={[styles.forgotText, { color: colors.accent }]}>
+            {t('forgotPasswordQuestion')}
+          </Text>
+        </TouchableOpacity>
+
+      </View>
+      <View style={styles.registerPrompt}>
+        <Text style={{ color: colors.inkMuted }}>
+          {t('dontHaveAccount')}{' '}
+        </Text>
+        <TouchableOpacity onPress={() => router.push('/register')} activeOpacity={0.7}>
+          <Text style={[styles.registerText, { color: colors.accent }]}>
+            {t('registerButton')}
+          </Text>
+        </TouchableOpacity>
       </View>
     </View>
   );
@@ -128,4 +149,22 @@ const styles = StyleSheet.create({
     borderWidth: 1 
   },
   biometricText: { fontSize: 15, fontWeight: '600' },
+  forgotBtn: {
+    alignSelf: 'flex-end',
+    marginVertical: 8,
+  },
+  forgotText: {
+    fontSize: 14,
+    fontWeight: '600',
+  },
+  registerPrompt: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 24,
+  },
+  registerText: {
+    fontSize: 14,
+    fontWeight: '600',
+  },
 });
